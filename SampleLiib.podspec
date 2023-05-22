@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'netsgogo' => 'gogo@nets.co.kr' }
-  s.source           = { :git => 'https://netsgogo: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@github.com/netsgogo/SampleLiib.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/netsgogo/SampleLiib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
