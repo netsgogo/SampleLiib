@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'SampleLiib_Example' do
+  pod 'SampleLiib', :path => '../'
+
+  target 'SampleLiib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
